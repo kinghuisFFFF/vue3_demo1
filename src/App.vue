@@ -11,6 +11,12 @@ import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 import { ref } from 'vue'
 
 const locale = ref(zhCn)
+
+for(let i=0;i<100;i++)
+{
+  console.log(i);
+}
+
 </script>
 
 <template>
