@@ -26,9 +26,3 @@ app.use(router)
 app.use(pinia)
 app.mount('#app')
 
-const fun = ()=>
-{
-console.log("xfd")
-}
-
-fun();
