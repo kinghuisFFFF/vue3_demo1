@@ -19,10 +19,15 @@ import pinia from './store'
 import './permission'
 import { isHasButton } from './directive/has'
 
+// 获取环境变量
+// console.log(import.meta.env)
+// console.log('环境变量',import.meta.env)
+
+// console.log(globalComponent)
+
 const app = createApp(App)
 isHasButton(app)
 app.use(globalComponent)
 app.use(router)
 app.use(pinia)
 app.mount('#app')
-

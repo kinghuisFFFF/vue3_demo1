@@ -1,0 +1,36 @@
+{
+    path: '/vip',
+    component: () => import('@/views/vip/index.vue'),
+    name: 'Vip',
+    meta: {
+      title: 'Vip仓库管理',
+      hidden: false,
+      icon: 'Lock',
+    },
+    redirect: '/vip/vip1',
+    children: [
+      {
+        path: '/vip1',
+        component: () => import('@/views/vip/vip1/index.vue'),
+        name: 'vip1',
+        meta: {
+          title: 'vip1',
+          hidden: false,
+          icon: 'Lock',
+        },
+      },
+      {
+        path: '/vip2',
+        component: () => import('@/views/vip/vip2/index.vue'),
+        name: 'vip2',
+        meta: {
+          title: 'vip2',
+          hidden: false,
+          icon: 'Lock',
+        },
+      },
+    ],
+  },
+
+
+  

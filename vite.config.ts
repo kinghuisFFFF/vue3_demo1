@@ -41,6 +41,7 @@ export default ({ command, mode }: ConfigEnv): UserConfigExport => {
       }),
     ],
     resolve: { alias: { '@': path.resolve('./src') } },
+    // scss 全局变量的配置
     css: {
       preprocessorOptions: {
         scss: {

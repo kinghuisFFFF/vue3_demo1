@@ -28,6 +28,7 @@ watch(
       <component :is="Component" v-if="flag" />
     </transition>
   </router-view>
+
 </template>
 <style lang="scss" scoped>
 .fade-enter-from {

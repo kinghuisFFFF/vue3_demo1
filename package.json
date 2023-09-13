@@ -17,6 +17,7 @@
     "commitlint": "commitlint --config commitlint.config.cjs -e -V",
     "preinstall": "node ./scripts/preinstall.js",
     "build:test": "vue-tsc && vite build --mode test",
+    "build:dev2": "vue-tsc && vite build --mode development",
     "build:pro": "vue-tsc && vite build --mode production",
     "commit": "git add . && git-cz"
   },

@@ -12,17 +12,20 @@ import { ref } from 'vue'
 
 const locale = ref(zhCn)
 
-
+import SvgIcon from '@/components/SvgIcon/src/index.vue'
 </script>
 
 <template>
   <el-config-provider :locale="locale">
     <router-view></router-view>
   </el-config-provider>
+
+ 
 </template>
 
 <style scoped lang="scss">
 h1 {
   color: $color;
 }
+
 </style>

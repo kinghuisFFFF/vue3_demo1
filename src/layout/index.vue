@@ -51,6 +51,7 @@ let LayOutSettingStore = useLayOutSettingStore()
         }"
       >
         <el-scrollbar>
+          <!-- 内容展示区域 -->
           <Main />
         </el-scrollbar>
       </el-main>
@@ -58,6 +59,8 @@ let LayOutSettingStore = useLayOutSettingStore()
   </el-container>
 </template>
 <style lang="scss" scoped>
+
+
 .layout-container-demo {
   height: 100%;
 }

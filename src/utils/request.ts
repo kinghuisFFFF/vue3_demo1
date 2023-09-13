@@ -17,6 +17,7 @@ const request = axios.create({
 request.interceptors.request.use(
   (config) => {
     const userStore = useUserStore()
+    // console.log(config)
 
     if (userStore.token) {
       config.headers.token = userStore.token
@@ -31,6 +32,7 @@ request.interceptors.request.use(
 
 request.interceptors.response.use(
   (response) => {
+    // console.log(response)
     if (response.status === 200) {
       return Promise.resolve(response.data)
     } else {

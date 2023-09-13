@@ -5,6 +5,7 @@
  * @LastEditors: Huccct
  * @LastEditTime: 2023-06-02 10:33:35
  */
+// 常量路由
 export const constantRoute = [
   {
     path: '/login',
@@ -56,8 +57,52 @@ export const constantRoute = [
       hidden: true,
     },
   },
+  {
+    path: '/vip',
+    component: () => import('@/layout/index.vue'),
+    name: 'Vip',
+    meta: {
+      title: 'Vip仓库管理',
+      hidden: false,
+      icon: 'Star',
+    },
+    redirect: '/vip/vip1',
+    children: [
+      {
+        path: '/vip/vip1',
+        component: () => import('@/views/vip/vip1/index.vue'),
+        name: 'vip1',
+        meta: {
+          title: 'vip1',
+          hidden: false,
+          icon: 'Watermelon',
+        },
+      },
+      {
+        path: '/vip/vip2',
+        component: () => import('@/views/vip/vip2/index.vue'),
+        name: 'vip2',
+        meta: {
+          title: 'vip2',
+          hidden: false,
+          icon: 'Pear',
+        },
+      },
+      {
+        path: '/vip/vip3',
+        component: () => import('@/views/vip/vip3/index.vue'),
+        name: 'vip3',
+        meta: {
+          title: 'vip3',
+          hidden: false,
+          icon: 'Mug',
+        },
+      },
+    ],
+  },
 ]
 
+// 异步路由
 export const asyncRoute = [
   {
     path: '/acl',
@@ -155,8 +200,10 @@ export const asyncRoute = [
       },
     ],
   },
+
 ]
 
+// 任意路由
 export const anyRoute = {
   path: '/:pathMatch(.*)*',
   redirect: '/404',
@@ -166,3 +213,4 @@ export const anyRoute = {
     hidden: true,
   },
 }
+

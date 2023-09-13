@@ -1,0 +1,1174 @@
+{
+    "AddLocation": {
+        "name": "AddLocation",
+        "__file": "add-location.vue"
+    },
+    "Aim": {
+        "name": "Aim",
+        "__file": "aim.vue"
+    },
+    "AlarmClock": {
+        "name": "AlarmClock",
+        "__file": "alarm-clock.vue"
+    },
+    "Apple": {
+        "name": "Apple",
+        "__file": "apple.vue"
+    },
+    "ArrowDown": {
+        "name": "ArrowDown",
+        "__file": "arrow-down.vue"
+    },
+    "ArrowDownBold": {
+        "name": "ArrowDownBold",
+        "__file": "arrow-down-bold.vue"
+    },
+    "ArrowLeft": {
+        "name": "ArrowLeft",
+        "__file": "arrow-left.vue"
+    },
+    "ArrowLeftBold": {
+        "name": "ArrowLeftBold",
+        "__file": "arrow-left-bold.vue"
+    },
+    "ArrowRight": {
+        "name": "ArrowRight",
+        "__file": "arrow-right.vue"
+    },
+    "ArrowRightBold": {
+        "name": "ArrowRightBold",
+        "__file": "arrow-right-bold.vue"
+    },
+    "ArrowUp": {
+        "name": "ArrowUp",
+        "__file": "arrow-up.vue"
+    },
+    "ArrowUpBold": {
+        "name": "ArrowUpBold",
+        "__file": "arrow-up-bold.vue"
+    },
+    "Avatar": {
+        "name": "Avatar",
+        "__file": "avatar.vue"
+    },
+    "Back": {
+        "name": "Back",
+        "__file": "back.vue"
+    },
+    "Baseball": {
+        "name": "Baseball",
+        "__file": "baseball.vue"
+    },
+    "Basketball": {
+        "name": "Basketball",
+        "__file": "basketball.vue"
+    },
+    "Bell": {
+        "name": "Bell",
+        "__file": "bell.vue"
+    },
+    "BellFilled": {
+        "name": "BellFilled",
+        "__file": "bell-filled.vue"
+    },
+    "Bicycle": {
+        "name": "Bicycle",
+        "__file": "bicycle.vue"
+    },
+    "Bottom": {
+        "name": "Bottom",
+        "__file": "bottom.vue"
+    },
+    "BottomLeft": {
+        "name": "BottomLeft",
+        "__file": "bottom-left.vue"
+    },
+    "BottomRight": {
+        "name": "BottomRight",
+        "__file": "bottom-right.vue"
+    },
+    "Bowl": {
+        "name": "Bowl",
+        "__file": "bowl.vue"
+    },
+    "Box": {
+        "name": "Box",
+        "__file": "box.vue"
+    },
+    "Briefcase": {
+        "name": "Briefcase",
+        "__file": "briefcase.vue"
+    },
+    "Brush": {
+        "name": "Brush",
+        "__file": "brush.vue"
+    },
+    "BrushFilled": {
+        "name": "BrushFilled",
+        "__file": "brush-filled.vue"
+    },
+    "Burger": {
+        "name": "Burger",
+        "__file": "burger.vue"
+    },
+    "Calendar": {
+        "name": "Calendar",
+        "__file": "calendar.vue"
+    },
+    "Camera": {
+        "name": "Camera",
+        "__file": "camera.vue"
+    },
+    "CameraFilled": {
+        "name": "CameraFilled",
+        "__file": "camera-filled.vue"
+    },
+    "CaretBottom": {
+        "name": "CaretBottom",
+        "__file": "caret-bottom.vue"
+    },
+    "CaretLeft": {
+        "name": "CaretLeft",
+        "__file": "caret-left.vue"
+    },
+    "CaretRight": {
+        "name": "CaretRight",
+        "__file": "caret-right.vue"
+    },
+    "CaretTop": {
+        "name": "CaretTop",
+        "__file": "caret-top.vue"
+    },
+    "Cellphone": {
+        "name": "Cellphone",
+        "__file": "cellphone.vue"
+    },
+    "ChatDotRound": {
+        "name": "ChatDotRound",
+        "__file": "chat-dot-round.vue"
+    },
+    "ChatDotSquare": {
+        "name": "ChatDotSquare",
+        "__file": "chat-dot-square.vue"
+    },
+    "ChatLineRound": {
+        "name": "ChatLineRound",
+        "__file": "chat-line-round.vue"
+    },
+    "ChatLineSquare": {
+        "name": "ChatLineSquare",
+        "__file": "chat-line-square.vue"
+    },
+    "ChatRound": {
+        "name": "ChatRound",
+        "__file": "chat-round.vue"
+    },
+    "ChatSquare": {
+        "name": "ChatSquare",
+        "__file": "chat-square.vue"
+    },
+    "Check": {
+        "name": "Check",
+        "__file": "check.vue"
+    },
+    "Checked": {
+        "name": "Checked",
+        "__file": "checked.vue"
+    },
+    "Cherry": {
+        "name": "Cherry",
+        "__file": "cherry.vue"
+    },
+    "Chicken": {
+        "name": "Chicken",
+        "__file": "chicken.vue"
+    },
+    "ChromeFilled": {
+        "name": "ChromeFilled",
+        "__file": "chrome-filled.vue"
+    },
+    "CircleCheck": {
+        "name": "CircleCheck",
+        "__file": "circle-check.vue"
+    },
+    "CircleCheckFilled": {
+        "name": "CircleCheckFilled",
+        "__file": "circle-check-filled.vue"
+    },
+    "CircleClose": {
+        "name": "CircleClose",
+        "__file": "circle-close.vue"
+    },
+    "CircleCloseFilled": {
+        "name": "CircleCloseFilled",
+        "__file": "circle-close-filled.vue"
+    },
+    "CirclePlus": {
+        "name": "CirclePlus",
+        "__file": "circle-plus.vue"
+    },
+    "CirclePlusFilled": {
+        "name": "CirclePlusFilled",
+        "__file": "circle-plus-filled.vue"
+    },
+    "Clock": {
+        "name": "Clock",
+        "__file": "clock.vue"
+    },
+    "Close": {
+        "name": "Close",
+        "__file": "close.vue"
+    },
+    "CloseBold": {
+        "name": "CloseBold",
+        "__file": "close-bold.vue"
+    },
+    "Cloudy": {
+        "name": "Cloudy",
+        "__file": "cloudy.vue"
+    },
+    "Coffee": {
+        "name": "Coffee",
+        "__file": "coffee.vue"
+    },
+    "CoffeeCup": {
+        "name": "CoffeeCup",
+        "__file": "coffee-cup.vue"
+    },
+    "Coin": {
+        "name": "Coin",
+        "__file": "coin.vue"
+    },
+    "ColdDrink": {
+        "name": "ColdDrink",
+        "__file": "cold-drink.vue"
+    },
+    "Collection": {
+        "name": "Collection",
+        "__file": "collection.vue"
+    },
+    "CollectionTag": {
+        "name": "CollectionTag",
+        "__file": "collection-tag.vue"
+    },
+    "Comment": {
+        "name": "Comment",
+        "__file": "comment.vue"
+    },
+    "Compass": {
+        "name": "Compass",
+        "__file": "compass.vue"
+    },
+    "Connection": {
+        "name": "Connection",
+        "__file": "connection.vue"
+    },
+    "Coordinate": {
+        "name": "Coordinate",
+        "__file": "coordinate.vue"
+    },
+    "CopyDocument": {
+        "name": "CopyDocument",
+        "__file": "copy-document.vue"
+    },
+    "Cpu": {
+        "name": "Cpu",
+        "__file": "cpu.vue"
+    },
+    "CreditCard": {
+        "name": "CreditCard",
+        "__file": "credit-card.vue"
+    },
+    "Crop": {
+        "name": "Crop",
+        "__file": "crop.vue"
+    },
+    "DArrowLeft": {
+        "name": "DArrowLeft",
+        "__file": "d-arrow-left.vue"
+    },
+    "DArrowRight": {
+        "name": "DArrowRight",
+        "__file": "d-arrow-right.vue"
+    },
+    "DCaret": {
+        "name": "DCaret",
+        "__file": "d-caret.vue"
+    },
+    "DataAnalysis": {
+        "name": "DataAnalysis",
+        "__file": "data-analysis.vue"
+    },
+    "DataBoard": {
+        "name": "DataBoard",
+        "__file": "data-board.vue"
+    },
+    "DataLine": {
+        "name": "DataLine",
+        "__file": "data-line.vue"
+    },
+    "Delete": {
+        "name": "Delete",
+        "__file": "delete.vue"
+    },
+    "DeleteFilled": {
+        "name": "DeleteFilled",
+        "__file": "delete-filled.vue"
+    },
+    "DeleteLocation": {
+        "name": "DeleteLocation",
+        "__file": "delete-location.vue"
+    },
+    "Dessert": {
+        "name": "Dessert",
+        "__file": "dessert.vue"
+    },
+    "Discount": {
+        "name": "Discount",
+        "__file": "discount.vue"
+    },
+    "Dish": {
+        "name": "Dish",
+        "__file": "dish.vue"
+    },
+    "DishDot": {
+        "name": "DishDot",
+        "__file": "dish-dot.vue"
+    },
+    "Document": {
+        "name": "Document",
+        "__file": "document.vue"
+    },
+    "DocumentAdd": {
+        "name": "DocumentAdd",
+        "__file": "document-add.vue"
+    },
+    "DocumentChecked": {
+        "name": "DocumentChecked",
+        "__file": "document-checked.vue"
+    },
+    "DocumentCopy": {
+        "name": "DocumentCopy",
+        "__file": "document-copy.vue"
+    },
+    "DocumentDelete": {
+        "name": "DocumentDelete",
+        "__file": "document-delete.vue"
+    },
+    "DocumentRemove": {
+        "name": "DocumentRemove",
+        "__file": "document-remove.vue"
+    },
+    "Download": {
+        "name": "Download",
+        "__file": "download.vue"
+    },
+    "Drizzling": {
+        "name": "Drizzling",
+        "__file": "drizzling.vue"
+    },
+    "Edit": {
+        "name": "Edit",
+        "__file": "edit.vue"
+    },
+    "EditPen": {
+        "name": "EditPen",
+        "__file": "edit-pen.vue"
+    },
+    "Eleme": {
+        "name": "Eleme",
+        "__file": "eleme.vue"
+    },
+    "ElemeFilled": {
+        "name": "ElemeFilled",
+        "__file": "eleme-filled.vue"
+    },
+    "ElementPlus": {
+        "name": "ElementPlus",
+        "__file": "element-plus.vue"
+    },
+    "Expand": {
+        "name": "Expand",
+        "__file": "expand.vue"
+    },
+    "Failed": {
+        "name": "Failed",
+        "__file": "failed.vue"
+    },
+    "Female": {
+        "name": "Female",
+        "__file": "female.vue"
+    },
+    "Files": {
+        "name": "Files",
+        "__file": "files.vue"
+    },
+    "Film": {
+        "name": "Film",
+        "__file": "film.vue"
+    },
+    "Filter": {
+        "name": "Filter",
+        "__file": "filter.vue"
+    },
+    "Finished": {
+        "name": "Finished",
+        "__file": "finished.vue"
+    },
+    "FirstAidKit": {
+        "name": "FirstAidKit",
+        "__file": "first-aid-kit.vue"
+    },
+    "Flag": {
+        "name": "Flag",
+        "__file": "flag.vue"
+    },
+    "Fold": {
+        "name": "Fold",
+        "__file": "fold.vue"
+    },
+    "Folder": {
+        "name": "Folder",
+        "__file": "folder.vue"
+    },
+    "FolderAdd": {
+        "name": "FolderAdd",
+        "__file": "folder-add.vue"
+    },
+    "FolderChecked": {
+        "name": "FolderChecked",
+        "__file": "folder-checked.vue"
+    },
+    "FolderDelete": {
+        "name": "FolderDelete",
+        "__file": "folder-delete.vue"
+    },
+    "FolderOpened": {
+        "name": "FolderOpened",
+        "__file": "folder-opened.vue"
+    },
+    "FolderRemove": {
+        "name": "FolderRemove",
+        "__file": "folder-remove.vue"
+    },
+    "Food": {
+        "name": "Food",
+        "__file": "food.vue"
+    },
+    "Football": {
+        "name": "Football",
+        "__file": "football.vue"
+    },
+    "ForkSpoon": {
+        "name": "ForkSpoon",
+        "__file": "fork-spoon.vue"
+    },
+    "Fries": {
+        "name": "Fries",
+        "__file": "fries.vue"
+    },
+    "FullScreen": {
+        "name": "FullScreen",
+        "__file": "full-screen.vue"
+    },
+    "Goblet": {
+        "name": "Goblet",
+        "__file": "goblet.vue"
+    },
+    "GobletFull": {
+        "name": "GobletFull",
+        "__file": "goblet-full.vue"
+    },
+    "GobletSquare": {
+        "name": "GobletSquare",
+        "__file": "goblet-square.vue"
+    },
+    "GobletSquareFull": {
+        "name": "GobletSquareFull",
+        "__file": "goblet-square-full.vue"
+    },
+    "GoldMedal": {
+        "name": "GoldMedal",
+        "__file": "gold-medal.vue"
+    },
+    "Goods": {
+        "name": "Goods",
+        "__file": "goods.vue"
+    },
+    "GoodsFilled": {
+        "name": "GoodsFilled",
+        "__file": "goods-filled.vue"
+    },
+    "Grape": {
+        "name": "Grape",
+        "__file": "grape.vue"
+    },
+    "Grid": {
+        "name": "Grid",
+        "__file": "grid.vue"
+    },
+    "Guide": {
+        "name": "Guide",
+        "__file": "guide.vue"
+    },
+    "Handbag": {
+        "name": "Handbag",
+        "__file": "handbag.vue"
+    },
+    "Headset": {
+        "name": "Headset",
+        "__file": "headset.vue"
+    },
+    "Help": {
+        "name": "Help",
+        "__file": "help.vue"
+    },
+    "HelpFilled": {
+        "name": "HelpFilled",
+        "__file": "help-filled.vue"
+    },
+    "Hide": {
+        "name": "Hide",
+        "__file": "hide.vue"
+    },
+    "Histogram": {
+        "name": "Histogram",
+        "__file": "histogram.vue"
+    },
+    "HomeFilled": {
+        "name": "HomeFilled",
+        "__file": "home-filled.vue"
+    },
+    "HotWater": {
+        "name": "HotWater",
+        "__file": "hot-water.vue"
+    },
+    "House": {
+        "name": "House",
+        "__file": "house.vue"
+    },
+    "IceCream": {
+        "name": "IceCream",
+        "__file": "ice-cream.vue"
+    },
+    "IceCreamRound": {
+        "name": "IceCreamRound",
+        "__file": "ice-cream-round.vue"
+    },
+    "IceCreamSquare": {
+        "name": "IceCreamSquare",
+        "__file": "ice-cream-square.vue"
+    },
+    "IceDrink": {
+        "name": "IceDrink",
+        "__file": "ice-drink.vue"
+    },
+    "IceTea": {
+        "name": "IceTea",
+        "__file": "ice-tea.vue"
+    },
+    "InfoFilled": {
+        "name": "InfoFilled",
+        "__file": "info-filled.vue"
+    },
+    "Iphone": {
+        "name": "Iphone",
+        "__file": "iphone.vue"
+    },
+    "Key": {
+        "name": "Key",
+        "__file": "key.vue"
+    },
+    "KnifeFork": {
+        "name": "KnifeFork",
+        "__file": "knife-fork.vue"
+    },
+    "Lightning": {
+        "name": "Lightning",
+        "__file": "lightning.vue"
+    },
+    "Link": {
+        "name": "Link",
+        "__file": "link.vue"
+    },
+    "List": {
+        "name": "List",
+        "__file": "list.vue"
+    },
+    "Loading": {
+        "name": "Loading",
+        "__file": "loading.vue"
+    },
+    "Location": {
+        "name": "Location",
+        "__file": "location.vue"
+    },
+    "LocationFilled": {
+        "name": "LocationFilled",
+        "__file": "location-filled.vue"
+    },
+    "LocationInformation": {
+        "name": "LocationInformation",
+        "__file": "location-information.vue"
+    },
+    "Lock": {
+        "name": "Lock",
+        "__file": "lock.vue"
+    },
+    "Lollipop": {
+        "name": "Lollipop",
+        "__file": "lollipop.vue"
+    },
+    "MagicStick": {
+        "name": "MagicStick",
+        "__file": "magic-stick.vue"
+    },
+    "Magnet": {
+        "name": "Magnet",
+        "__file": "magnet.vue"
+    },
+    "Male": {
+        "name": "Male",
+        "__file": "male.vue"
+    },
+    "Management": {
+        "name": "Management",
+        "__file": "management.vue"
+    },
+    "MapLocation": {
+        "name": "MapLocation",
+        "__file": "map-location.vue"
+    },
+    "Medal": {
+        "name": "Medal",
+        "__file": "medal.vue"
+    },
+    "Memo": {
+        "name": "Memo",
+        "__file": "memo.vue"
+    },
+    "Menu": {
+        "name": "Menu",
+        "__file": "menu.vue"
+    },
+    "Message": {
+        "name": "Message",
+        "__file": "message.vue"
+    },
+    "MessageBox": {
+        "name": "MessageBox",
+        "__file": "message-box.vue"
+    },
+    "Mic": {
+        "name": "Mic",
+        "__file": "mic.vue"
+    },
+    "Microphone": {
+        "name": "Microphone",
+        "__file": "microphone.vue"
+    },
+    "MilkTea": {
+        "name": "MilkTea",
+        "__file": "milk-tea.vue"
+    },
+    "Minus": {
+        "name": "Minus",
+        "__file": "minus.vue"
+    },
+    "Money": {
+        "name": "Money",
+        "__file": "money.vue"
+    },
+    "Monitor": {
+        "name": "Monitor",
+        "__file": "monitor.vue"
+    },
+    "Moon": {
+        "name": "Moon",
+        "__file": "moon.vue"
+    },
+    "MoonNight": {
+        "name": "MoonNight",
+        "__file": "moon-night.vue"
+    },
+    "More": {
+        "name": "More",
+        "__file": "more.vue"
+    },
+    "MoreFilled": {
+        "name": "MoreFilled",
+        "__file": "more-filled.vue"
+    },
+    "MostlyCloudy": {
+        "name": "MostlyCloudy",
+        "__file": "mostly-cloudy.vue"
+    },
+    "Mouse": {
+        "name": "Mouse",
+        "__file": "mouse.vue"
+    },
+    "Mug": {
+        "name": "Mug",
+        "__file": "mug.vue"
+    },
+    "Mute": {
+        "name": "Mute",
+        "__file": "mute.vue"
+    },
+    "MuteNotification": {
+        "name": "MuteNotification",
+        "__file": "mute-notification.vue"
+    },
+    "NoSmoking": {
+        "name": "NoSmoking",
+        "__file": "no-smoking.vue"
+    },
+    "Notebook": {
+        "name": "Notebook",
+        "__file": "notebook.vue"
+    },
+    "Notification": {
+        "name": "Notification",
+        "__file": "notification.vue"
+    },
+    "Odometer": {
+        "name": "Odometer",
+        "__file": "odometer.vue"
+    },
+    "OfficeBuilding": {
+        "name": "OfficeBuilding",
+        "__file": "office-building.vue"
+    },
+    "Open": {
+        "name": "Open",
+        "__file": "open.vue"
+    },
+    "Operation": {
+        "name": "Operation",
+        "__file": "operation.vue"
+    },
+    "Opportunity": {
+        "name": "Opportunity",
+        "__file": "opportunity.vue"
+    },
+    "Orange": {
+        "name": "Orange",
+        "__file": "orange.vue"
+    },
+    "Paperclip": {
+        "name": "Paperclip",
+        "__file": "paperclip.vue"
+    },
+    "PartlyCloudy": {
+        "name": "PartlyCloudy",
+        "__file": "partly-cloudy.vue"
+    },
+    "Pear": {
+        "name": "Pear",
+        "__file": "pear.vue"
+    },
+    "Phone": {
+        "name": "Phone",
+        "__file": "phone.vue"
+    },
+    "PhoneFilled": {
+        "name": "PhoneFilled",
+        "__file": "phone-filled.vue"
+    },
+    "Picture": {
+        "name": "Picture",
+        "__file": "picture.vue"
+    },
+    "PictureFilled": {
+        "name": "PictureFilled",
+        "__file": "picture-filled.vue"
+    },
+    "PictureRounded": {
+        "name": "PictureRounded",
+        "__file": "picture-rounded.vue"
+    },
+    "PieChart": {
+        "name": "PieChart",
+        "__file": "pie-chart.vue"
+    },
+    "Place": {
+        "name": "Place",
+        "__file": "place.vue"
+    },
+    "Platform": {
+        "name": "Platform",
+        "__file": "platform.vue"
+    },
+    "Plus": {
+        "name": "Plus",
+        "__file": "plus.vue"
+    },
+    "Pointer": {
+        "name": "Pointer",
+        "__file": "pointer.vue"
+    },
+    "Position": {
+        "name": "Position",
+        "__file": "position.vue"
+    },
+    "Postcard": {
+        "name": "Postcard",
+        "__file": "postcard.vue"
+    },
+    "Pouring": {
+        "name": "Pouring",
+        "__file": "pouring.vue"
+    },
+    "Present": {
+        "name": "Present",
+        "__file": "present.vue"
+    },
+    "PriceTag": {
+        "name": "PriceTag",
+        "__file": "price-tag.vue"
+    },
+    "Printer": {
+        "name": "Printer",
+        "__file": "printer.vue"
+    },
+    "Promotion": {
+        "name": "Promotion",
+        "__file": "promotion.vue"
+    },
+    "QuartzWatch": {
+        "name": "QuartzWatch",
+        "__file": "quartz-watch.vue"
+    },
+    "QuestionFilled": {
+        "name": "QuestionFilled",
+        "__file": "question-filled.vue"
+    },
+    "Rank": {
+        "name": "Rank",
+        "__file": "rank.vue"
+    },
+    "Reading": {
+        "name": "Reading",
+        "__file": "reading.vue"
+    },
+    "ReadingLamp": {
+        "name": "ReadingLamp",
+        "__file": "reading-lamp.vue"
+    },
+    "Refresh": {
+        "name": "Refresh",
+        "__file": "refresh.vue"
+    },
+    "RefreshLeft": {
+        "name": "RefreshLeft",
+        "__file": "refresh-left.vue"
+    },
+    "RefreshRight": {
+        "name": "RefreshRight",
+        "__file": "refresh-right.vue"
+    },
+    "Refrigerator": {
+        "name": "Refrigerator",
+        "__file": "refrigerator.vue"
+    },
+    "Remove": {
+        "name": "Remove",
+        "__file": "remove.vue"
+    },
+    "RemoveFilled": {
+        "name": "RemoveFilled",
+        "__file": "remove-filled.vue"
+    },
+    "Right": {
+        "name": "Right",
+        "__file": "right.vue"
+    },
+    "ScaleToOriginal": {
+        "name": "ScaleToOriginal",
+        "__file": "scale-to-original.vue"
+    },
+    "School": {
+        "name": "School",
+        "__file": "school.vue"
+    },
+    "Scissor": {
+        "name": "Scissor",
+        "__file": "scissor.vue"
+    },
+    "Search": {
+        "name": "Search",
+        "__file": "search.vue"
+    },
+    "Select": {
+        "name": "Select",
+        "__file": "select.vue"
+    },
+    "Sell": {
+        "name": "Sell",
+        "__file": "sell.vue"
+    },
+    "SemiSelect": {
+        "name": "SemiSelect",
+        "__file": "semi-select.vue"
+    },
+    "Service": {
+        "name": "Service",
+        "__file": "service.vue"
+    },
+    "SetUp": {
+        "name": "SetUp",
+        "__file": "set-up.vue"
+    },
+    "Setting": {
+        "name": "Setting",
+        "__file": "setting.vue"
+    },
+    "Share": {
+        "name": "Share",
+        "__file": "share.vue"
+    },
+    "Ship": {
+        "name": "Ship",
+        "__file": "ship.vue"
+    },
+    "Shop": {
+        "name": "Shop",
+        "__file": "shop.vue"
+    },
+    "ShoppingBag": {
+        "name": "ShoppingBag",
+        "__file": "shopping-bag.vue"
+    },
+    "ShoppingCart": {
+        "name": "ShoppingCart",
+        "__file": "shopping-cart.vue"
+    },
+    "ShoppingCartFull": {
+        "name": "ShoppingCartFull",
+        "__file": "shopping-cart-full.vue"
+    },
+    "ShoppingTrolley": {
+        "name": "ShoppingTrolley",
+        "__file": "shopping-trolley.vue"
+    },
+    "Smoking": {
+        "name": "Smoking",
+        "__file": "smoking.vue"
+    },
+    "Soccer": {
+        "name": "Soccer",
+        "__file": "soccer.vue"
+    },
+    "SoldOut": {
+        "name": "SoldOut",
+        "__file": "sold-out.vue"
+    },
+    "Sort": {
+        "name": "Sort",
+        "__file": "sort.vue"
+    },
+    "SortDown": {
+        "name": "SortDown",
+        "__file": "sort-down.vue"
+    },
+    "SortUp": {
+        "name": "SortUp",
+        "__file": "sort-up.vue"
+    },
+    "Stamp": {
+        "name": "Stamp",
+        "__file": "stamp.vue"
+    },
+    "Star": {
+        "name": "Star",
+        "__file": "star.vue"
+    },
+    "StarFilled": {
+        "name": "StarFilled",
+        "__file": "star-filled.vue"
+    },
+    "Stopwatch": {
+        "name": "Stopwatch",
+        "__file": "stopwatch.vue"
+    },
+    "SuccessFilled": {
+        "name": "SuccessFilled",
+        "__file": "success-filled.vue"
+    },
+    "Sugar": {
+        "name": "Sugar",
+        "__file": "sugar.vue"
+    },
+    "Suitcase": {
+        "name": "Suitcase",
+        "__file": "suitcase.vue"
+    },
+    "SuitcaseLine": {
+        "name": "SuitcaseLine",
+        "__file": "suitcase-line.vue"
+    },
+    "Sunny": {
+        "name": "Sunny",
+        "__file": "sunny.vue"
+    },
+    "Sunrise": {
+        "name": "Sunrise",
+        "__file": "sunrise.vue"
+    },
+    "Sunset": {
+        "name": "Sunset",
+        "__file": "sunset.vue"
+    },
+    "Switch": {
+        "name": "Switch",
+        "__file": "switch.vue"
+    },
+    "SwitchButton": {
+        "name": "SwitchButton",
+        "__file": "switch-button.vue"
+    },
+    "SwitchFilled": {
+        "name": "SwitchFilled",
+        "__file": "switch-filled.vue"
+    },
+    "TakeawayBox": {
+        "name": "TakeawayBox",
+        "__file": "takeaway-box.vue"
+    },
+    "Ticket": {
+        "name": "Ticket",
+        "__file": "ticket.vue"
+    },
+    "Tickets": {
+        "name": "Tickets",
+        "__file": "tickets.vue"
+    },
+    "Timer": {
+        "name": "Timer",
+        "__file": "timer.vue"
+    },
+    "ToiletPaper": {
+        "name": "ToiletPaper",
+        "__file": "toilet-paper.vue"
+    },
+    "Tools": {
+        "name": "Tools",
+        "__file": "tools.vue"
+    },
+    "Top": {
+        "name": "Top",
+        "__file": "top.vue"
+    },
+    "TopLeft": {
+        "name": "TopLeft",
+        "__file": "top-left.vue"
+    },
+    "TopRight": {
+        "name": "TopRight",
+        "__file": "top-right.vue"
+    },
+    "TrendCharts": {
+        "name": "TrendCharts",
+        "__file": "trend-charts.vue"
+    },
+    "Trophy": {
+        "name": "Trophy",
+        "__file": "trophy.vue"
+    },
+    "TrophyBase": {
+        "name": "TrophyBase",
+        "__file": "trophy-base.vue"
+    },
+    "TurnOff": {
+        "name": "TurnOff",
+        "__file": "turn-off.vue"
+    },
+    "Umbrella": {
+        "name": "Umbrella",
+        "__file": "umbrella.vue"
+    },
+    "Unlock": {
+        "name": "Unlock",
+        "__file": "unlock.vue"
+    },
+    "Upload": {
+        "name": "Upload",
+        "__file": "upload.vue"
+    },
+    "UploadFilled": {
+        "name": "UploadFilled",
+        "__file": "upload-filled.vue"
+    },
+    "User": {
+        "name": "User",
+        "__file": "user.vue"
+    },
+    "UserFilled": {
+        "name": "UserFilled",
+        "__file": "user-filled.vue"
+    },
+    "Van": {
+        "name": "Van",
+        "__file": "van.vue"
+    },
+    "VideoCamera": {
+        "name": "VideoCamera",
+        "__file": "video-camera.vue"
+    },
+    "VideoCameraFilled": {
+        "name": "VideoCameraFilled",
+        "__file": "video-camera-filled.vue"
+    },
+    "VideoPause": {
+        "name": "VideoPause",
+        "__file": "video-pause.vue"
+    },
+    "VideoPlay": {
+        "name": "VideoPlay",
+        "__file": "video-play.vue"
+    },
+    "View": {
+        "name": "View",
+        "__file": "view.vue"
+    },
+    "Wallet": {
+        "name": "Wallet",
+        "__file": "wallet.vue"
+    },
+    "WalletFilled": {
+        "name": "WalletFilled",
+        "__file": "wallet-filled.vue"
+    },
+    "WarnTriangleFilled": {
+        "name": "WarnTriangleFilled",
+        "__file": "warn-triangle-filled.vue"
+    },
+    "Warning": {
+        "name": "Warning",
+        "__file": "warning.vue"
+    },
+    "WarningFilled": {
+        "name": "WarningFilled",
+        "__file": "warning-filled.vue"
+    },
+    "Watch": {
+        "name": "Watch",
+        "__file": "watch.vue"
+    },
+    "Watermelon": {
+        "name": "Watermelon",
+        "__file": "watermelon.vue"
+    },
+    "WindPower": {
+        "name": "WindPower",
+        "__file": "wind-power.vue"
+    },
+    "ZoomIn": {
+        "name": "ZoomIn",
+        "__file": "zoom-in.vue"
+    },
+    "ZoomOut": {
+        "name": "ZoomOut",
+        "__file": "zoom-out.vue"
+    }
+}
