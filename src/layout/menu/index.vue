@@ -23,7 +23,11 @@ const goRoute = (vc: any) => {
   <template v-for="(item, index) in menuList" :key="item.path">
     <!-- 没有子路由 -->
     <template v-if="!item.children">
-      <el-menu-item v-if="!item.meta.hidden" :index="item.path" @click="goRoute">
+      <el-menu-item
+        v-if="!item.meta.hidden"
+        :index="item.path"
+        @click="goRoute"
+      >
         <el-icon>
           <component :is="item.meta.icon"></component>
         </el-icon>
@@ -33,8 +37,14 @@ const goRoute = (vc: any) => {
       </el-menu-item>
     </template>
     <!-- 有子路由但只有一个 --home -->
-    <template v-if="item.children && item.children.length === 1 && item.path === '/'">
-      <el-menu-item v-if="!item.children[0].meta.hidden" :index="item.children[0].path" @click="goRoute">
+    <template
+      v-if="item.children && item.children.length === 1 && item.path === '/'"
+    >
+      <el-menu-item
+        v-if="!item.children[0].meta.hidden"
+        :index="item.children[0].path"
+        @click="goRoute"
+      >
         <el-icon>
           <component :is="item.children[0].meta.icon"></component>
         </el-icon>
@@ -44,7 +54,9 @@ const goRoute = (vc: any) => {
       </el-menu-item>
     </template>
     <!-- 有子路由但只有一个 --not home -->
-    <template v-if="item.children && item.children.length === 1 && item.path !== '/'">
+    <template
+      v-if="item.children && item.children.length === 1 && item.path !== '/'"
+    >
       <el-sub-menu :index="item.path">
         <template #title>
           <el-icon>
@@ -53,7 +65,11 @@ const goRoute = (vc: any) => {
           <span>{{ item.meta.title }}</span>
         </template>
 
-        <el-menu-item v-if="!item.children[0].meta.hidden" :index="item.children[0].path" @click="goRoute">
+        <el-menu-item
+          v-if="!item.children[0].meta.hidden"
+          :index="item.children[0].path"
+          @click="goRoute"
+        >
           <el-icon>
             <component :is="item.children[0].meta.icon"></component>
           </el-icon>
@@ -64,7 +80,10 @@ const goRoute = (vc: any) => {
       </el-sub-menu>
     </template>
     <!-- 有子路由且大于一个 -->
-    <el-sub-menu v-if="item.children && item.children.length > 1" :index="item.path">
+    <el-sub-menu
+      v-if="item.children && item.children.length > 1"
+      :index="item.path"
+    >
       <template #title>
         <el-icon>
           <component :is="item.meta.icon"></component>

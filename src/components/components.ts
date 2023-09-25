@@ -8,3 +8,4 @@
 export { DefPagination } from './Pagination'
 export { DefSvgIcon } from './SvgIcon'
 export { DefCategory } from './Category'
+export { DefZujian1 } from './Zujian1'

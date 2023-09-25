@@ -63,13 +63,63 @@ const handler = () => {
   getHasUser()
 }
 
+//下面是一个通用较高的自定义日期时间格式化函数的示例：
+function formatDateTime(date: Date, format: string) {
+  const o = {
+    'M+': date.getMonth() + 1, // 月份
+    'd+': date.getDate(), // 日
+    'h+': date.getHours() % 12 === 0 ? 12 : date.getHours() % 12, // 小时
+    'H+': date.getHours(), // 小时
+    'm+': date.getMinutes(), // 分
+    's+': date.getSeconds(), // 秒
+    'q+': Math.floor((date.getMonth() + 3) / 3), // 季度
+    S: date.getMilliseconds(), // 毫秒
+    a: date.getHours() < 12 ? '上午' : '下午', // 上午/下午
+    A: date.getHours() < 12 ? 'AM' : 'PM', // AM/PM
+  }
+  if (/(y+)/.test(format)) {
+    format = format.replace(
+      RegExp.$1,
+      (date.getFullYear() + '').substr(4 - RegExp.$1.length),
+    )
+  }
+  for (let k in o) {
+    if (new RegExp('(' + k + ')').test(format)) {
+      format = format.replace(
+        RegExp.$1,
+        RegExp.$1.length === 1
+          ? o[k]
+          : ('00' + o[k]).substr(('' + o[k]).length),
+      )
+    }
+  }
+  return format
+}
+//这个函数接受两个参数，第一个参数是要格式化的日期时间，可以是 Date 对象或表示日期时间的字符串，第二个参数是要格式化的格式，例如 yyyy-MM-dd HH:mm:ss。该函数会将日期时间格式化为指定的格式，并返回格式化后的字符串。
+
+//该函数使用了正则表达式来匹配格式字符串中的占位符，然后根据对应的日期时间值来替换占位符。其中，y 会被替换为年份，M、d、h、H、m、s、q、S、a、A 分别表示月份、日期、小时（12 小时制）、小时（24 小时制）、分钟、秒、季度、毫秒、上午/下午、AM/PM。
+
 const addUser = () => {
   drawer.value = true
+  // let t1 = formatDate(new Date(), "yyyy-MM-dd hh:mm:ss")
+  // let t2 = formatDate(new Date(), "yyyy-M-d h:m:s")
+  // console.log('时间===》', '\n', t1, '\n', t2)
+
+  //使用该函数进行日期时间格式化的示例如下：
+  const date = new Date()
+  // console.log(formatDateTime(date, 'yyyy-MM-dd HH:mm:ss')); // 2023-02-16 08:25:05
+  // console.log(formatDateTime(date, 'yyyy年MM月dd日 HH:mm:ss')); // 2023年02月16日 08:25:05
+  // console.log(formatDateTime(date, 'yyyy-MM-dd HH:mm:ss S')); // 2023-02-16 08:25:05 950
+  // console.log(formatDateTime(date, 'yyyy-MM-dd hh:mm:ss A')); // 2023-02-16 08:25:05 上午
+  let t1 = formatDateTime(date, 'yyyy-MM-dd HH:mm:ss S')
+
   Object.assign(userParams, {
     id: 0,
     username: '',
     name: '',
     password: '',
+    createTime: t1,
+    updateTime: t1,
   })
   nextTick(() => {
     formRef.value.clearValidate('username')

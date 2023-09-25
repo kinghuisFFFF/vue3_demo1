@@ -8,7 +8,8 @@
 <script setup lang="ts">
 import { ElConfigProvider } from 'element-plus'
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
+import { getAll } from '@/api/vip/vip1'
 
 const locale = ref(zhCn)
 
@@ -19,13 +20,10 @@ import SvgIcon from '@/components/SvgIcon/src/index.vue'
   <el-config-provider :locale="locale">
     <router-view></router-view>
   </el-config-provider>
-
- 
 </template>
 
 <style scoped lang="scss">
 h1 {
   color: $color;
 }
-
 </style>

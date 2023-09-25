@@ -18,7 +18,6 @@ const install = function (app: App) {
   }
 }
 
-
 export default install
 
 export * from './components'

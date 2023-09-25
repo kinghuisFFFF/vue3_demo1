@@ -190,6 +190,7 @@ const initAddSpu = async (c3Id: number | string) => {
   allSaleAttr.value = res1.data
 }
 
+// 对外暴露
 defineExpose({ initHasSpuData, initAddSpu })
 </script>
 <template>

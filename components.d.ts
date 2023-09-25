@@ -38,6 +38,8 @@ declare module '@vue/runtime-core' {
     ElPagination: typeof import('element-plus/es')['ElPagination']
     ElPopconfirm: typeof import('element-plus/es')['ElPopconfirm']
     ElPopover: typeof import('element-plus/es')['ElPopover']
+    ElRadioButton: typeof import('element-plus/es')['ElRadioButton']
+    ElRadioGroup: typeof import('element-plus/es')['ElRadioGroup']
     ElRow: typeof import('element-plus/es')['ElRow']
     ElScrollbar: typeof import('element-plus/es')['ElScrollbar']
     ElSelect: typeof import('element-plus/es')['ElSelect']
@@ -52,5 +54,7 @@ declare module '@vue/runtime-core' {
     RouterView: typeof import('vue-router')['RouterView']
     Src: typeof import('./src/components/Category/src/index.vue')['default']
     VerifyCode: typeof import('./src/components/VerifyCode/index.vue')['default']
+    Zujian1: typeof import('./src/components/zujian1/index.vue')['default']
+    Zujian2: typeof import('./src/components/Zujian2/index.vue')['default']
   }
 }

@@ -14,6 +14,7 @@ import { viteMockServe } from 'vite-plugin-mock'
 import DefineOptions from 'unplugin-vue-define-options/vite'
 import VueSetupExtend from 'vite-plugin-vue-setup-extend'
 import path from 'path'
+
 // 引入svg
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 // https://vitejs.dev/config/
@@ -58,6 +59,16 @@ export default ({ command, mode }: ConfigEnv): UserConfigExport => {
           // 需要代理跨域
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, ''),
+        },
+        ['^/test-api']: {
+          target: 'http://localhost:8888', //目标源，目标服务器，真实请求地址
+          changeOrigin: true, //支持跨域
+          rewrite: (path) => path.replace(/^\/test-api/, ''), //重写真实路径,替换/api
+        },
+        ['^/auth-api']: {
+          target: 'http://192.168.3.60:8008', //目标源，目标服务器，真实请求地址
+          changeOrigin: true, //支持跨域
+          rewrite: (path) => path.replace(/^\/auth-api/, ''), //重写真实路径,替换/api
         },
       },
     },

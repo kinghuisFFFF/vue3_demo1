@@ -6,7 +6,7 @@
  * @LastEditTime: 2023-06-01 14:59:11
 -->
 <script setup lang="ts">
-import { ref, onMounted, reactive, nextTick } from 'vue'
+import { ref, onMounted, onUnmounted, reactive, nextTick } from 'vue'
 import {
   reqRemoveRole,
   reqAllRoleList,
@@ -36,6 +36,13 @@ let RoleParams = reactive<RoleData>({
 
 onMounted(() => {
   getHasRole()
+  // 绑定监听事件
+  window.addEventListener('keydown', enterdown)
+})
+
+onUnmounted(() => {
+  // onUnmounted 销毁事件
+  window.removeEventListener('keydown', enterdown, false)
 })
 
 let keyword = ref<string>('')
@@ -109,6 +116,20 @@ const rules = {
   roleName: [{ required: true, trigger: 'blur', validator: validateRoleName }],
 }
 
+// showInfo
+const showInfo = async (e: any) => {
+  console.log(e.target.value)
+}
+
+// enterdown
+const enterdown = async (e: any) => {
+  // console.log(e.target.value)
+  // 按下回车触发
+  if (e.keyCode == 13) {
+    save()
+  }
+}
+
 const save = async () => {
   await form.value.validate()
   let res: any = await reqAddOrUpdateRole(RoleParams)
@@ -175,6 +196,19 @@ const removeRole = async (id: number) => {
     getHasRole(allRole.value.length > 1 ? pageNo.value : pageNo.value - 1)
   }
 }
+
+const removeRole2 = async (row: any) => {
+  console.log('row===>', row)
+  let id: number = row.id
+  let res: any = await reqRemoveRole(id)
+  if (res.code === 200) {
+    ElMessage({
+      type: 'success',
+      message: '删除成功',
+    })
+    getHasRole(allRole.value.length > 1 ? pageNo.value : pageNo.value - 1)
+  }
+}
 </script>
 <template>
   <el-card style="height: 80px">
@@ -183,6 +217,7 @@ const removeRole = async (id: number) => {
         <el-input
           placeholder="请你输入搜索职位的关键字"
           v-model="keyword"
+          @blur="search"
         ></el-input>
       </el-form-item>
       <el-form-item>
@@ -237,7 +272,7 @@ const removeRole = async (id: number) => {
             编辑
           </el-button>
           <el-popconfirm
-            :title="`你确定要删除${row.rowName}?`"
+            :title="`你确定要删除${row.roleName}?`"
             width="260px"
             @confirm="removeRole(row.id)"
           >
@@ -275,7 +310,15 @@ const removeRole = async (id: number) => {
     </el-form>
     <template #footer>
       <el-button size="default" @click="dialogVisible = false">取消</el-button>
-      <el-button type="primary" size="default" @click="save">确定</el-button>
+      <el-button
+        type="primary"
+        size="default"
+        @click="save"
+        @keyup.enter="enterdown"
+      >
+        确定
+      </el-button>
+      <!-- <input type="text" @keyup.enter="showInfo"> -->
     </template>
   </el-dialog>
   <el-drawer v-model="drawer">
@@ -303,6 +346,9 @@ const removeRole = async (id: number) => {
 </template>
 <style lang="scss" scoped>
 .form {
+  // flex-direction 容器内元素的排列方向(默认横向排列)
+  // space-between: 元素等间距排列，首尾元素与Flex容器的两端对齐，其他元素平均分配间距
+  // flex容器的属性：align-items，能够设置子元素的对齐和空间分配方式，常用做居中设置。
   display: flex;
   justify-content: space-between;
   align-items: center;

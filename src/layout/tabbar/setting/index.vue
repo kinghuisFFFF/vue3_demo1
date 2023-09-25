@@ -59,11 +59,13 @@ const predefineColors = ref([
 
 const changeDark = () => {
   let html = document.documentElement
+  // console.log(html)
   dark.value ? (html.className = 'dark') : (html.className = '')
 }
 
 const setColor = () => {
   let html = document.documentElement
+  console.log(html.style)
   html.style.setProperty('--el-color-primary', color.value)
 }
 </script>

@@ -57,6 +57,30 @@ export const constantRoute = [
       hidden: true,
     },
   },
+
+  {
+    path: '/vip2',
+    component: () => import('@/layout/index.vue'),
+    name: 'layout2',
+    meta: {
+      title: '系统管理',
+      hidden: false,
+      icon: 'IceTea',
+    },
+    redirect: '/demo1',
+    children: [
+      {
+        path: '/demo1',
+        component: () => import('@/views/demo1/index.vue'),
+        meta: {
+          title: '小白1',
+          hidden: false,
+          icon: 'KnifeFork',
+        },
+      },
+    ],
+  },
+
   {
     path: '/vip',
     component: () => import('@/layout/index.vue'),
@@ -73,7 +97,7 @@ export const constantRoute = [
         component: () => import('@/views/vip/vip1/index.vue'),
         name: 'vip1',
         meta: {
-          title: 'vip1',
+          title: '百宝箱',
           hidden: false,
           icon: 'Watermelon',
         },
@@ -200,7 +224,6 @@ export const asyncRoute = [
       },
     ],
   },
-
 ]
 
 // 任意路由
@@ -213,4 +236,3 @@ export const anyRoute = {
     hidden: true,
   },
 }
-

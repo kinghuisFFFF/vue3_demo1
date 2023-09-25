@@ -59,8 +59,6 @@ let LayOutSettingStore = useLayOutSettingStore()
   </el-container>
 </template>
 <style lang="scss" scoped>
-
-
 .layout-container-demo {
   height: 100%;
 }
